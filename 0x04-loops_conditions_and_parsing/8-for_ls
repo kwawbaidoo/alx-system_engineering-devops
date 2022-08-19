@@ -2,5 +2,5 @@
 #Print content of current directory
 for dir in *
 do
-	echo "$file" |cut -d "-" -f 2
+	echo "$dir" |cut -d "-" -f 2
 	done
