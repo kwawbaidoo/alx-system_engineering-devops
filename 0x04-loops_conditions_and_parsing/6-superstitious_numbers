@@ -1,13 +1,13 @@
 #i/usr/bin/env bash
-#prints the 6-susperstitious_number
+# prints the 6-susperstitious_number
 i=0
 bad_china="bad luck from china"
 bad_japan="bad luck from japan"
 bad_italy="bad luck from italy"
-while ( $i -lt 20 )
+while [ $i -lt 20 ]
 do
 	((i++))
-	case $i in
+	case "$i" in
 		4) echo 4; echo "$bad_china";;
 		9) echo 9; echo "$bad_japan";;
 		17) echo 17; echo "$bad_italy";;
