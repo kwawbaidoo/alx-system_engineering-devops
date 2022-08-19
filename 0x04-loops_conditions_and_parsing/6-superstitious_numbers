@@ -8,9 +8,9 @@ while [ "$i" -lt 20 ]
 do
 	((i++))
 	case "$i" in
-		4) echo 4; echo "$bad_china";;
-		9) echo 9; echo "$bad_japan";;
-		17) echo 17; echo "$bad_italy";;
+		4) echo 4; echo "$bad_China";;
+		9) echo 9; echo "$bad_Japan";;
+		17) echo 17; echo "$bad_Italy";;
 		*) echo "$i";;
 		esac
 	done
