@@ -4,7 +4,7 @@ i=0
 bad_china="bad luck from china"
 bad_japan="bad luck from japan"
 bad_italy="bad luck from italy"
-while [ $i -lt 20 ]
+while [ "$i" -lt 20 ]
 do
 	((i++))
 	case "$i" in
